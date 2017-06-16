@@ -18,7 +18,7 @@
  * under the License.
  */
 namespace Cdn\Request\V20141111;
-
+use Cdn\RpcAcsRequest;
 class RefreshObjectCachesRequest extends \RpcAcsRequest
 {
 	function  __construct()
