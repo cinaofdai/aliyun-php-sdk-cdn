@@ -19,7 +19,9 @@
  */
 namespace Cdn\Request\V20141111;
 
-class AddLiveAppRecordConfigRequest extends \RpcAcsRequest
+use Cdn\RpcAcsRequest;
+
+class AddLiveAppRecordConfigRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

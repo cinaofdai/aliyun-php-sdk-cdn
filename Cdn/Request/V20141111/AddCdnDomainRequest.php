@@ -19,7 +19,9 @@
  */
 namespace Cdn\Request\V20141111;
 
-class AddCdnDomainRequest extends \RpcAcsRequest
+use Cdn\RpcAcsRequest;
+
+class AddCdnDomainRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,9 @@
  */
 namespace Cdn\Request\V20141111;
 
-class AddLiveStreamTranscodeRequest extends \RpcAcsRequest
+use Cdn\RpcAcsRequest;
+
+class AddLiveStreamTranscodeRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

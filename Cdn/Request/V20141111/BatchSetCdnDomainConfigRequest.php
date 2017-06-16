@@ -19,7 +19,9 @@
  */
 namespace Cdn\Request\V20141111;
 
-class BatchSetCdnDomainConfigRequest extends \RpcAcsRequest
+use Cdn\RpcAcsRequest;
+
+class BatchSetCdnDomainConfigRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

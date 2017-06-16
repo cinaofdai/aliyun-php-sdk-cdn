@@ -19,7 +19,9 @@
  */
 namespace Cdn\Request\V20141111;
 
-class BatchDeleteCdnDomainConfigRequest extends \RpcAcsRequest
+use Cdn\RpcAcsRequest;
+
+class BatchDeleteCdnDomainConfigRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

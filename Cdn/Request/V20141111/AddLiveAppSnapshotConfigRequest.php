@@ -18,8 +18,9 @@
  * under the License.
  */
 namespace Cdn\Request\V20141111;
+use Cdn\RpcAcsRequest;
 
-class AddLiveAppSnapshotConfigRequest extends \RpcAcsRequest
+class AddLiveAppSnapshotConfigRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

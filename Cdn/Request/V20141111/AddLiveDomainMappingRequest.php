@@ -19,7 +19,9 @@
  */
 namespace Cdn\Request\V20141111;
 
-class AddLiveDomainMappingRequest extends \RpcAcsRequest
+use Cdn\RpcAcsRequest;
+
+class AddLiveDomainMappingRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{
